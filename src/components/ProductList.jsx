@@ -5,8 +5,8 @@ const ProductList = ({ listShoe, updateShoe, showDetail }) => {
 
     return listShoe.map((item, index) => {
         return (
-            <div className='shadow-xl p-4 bg-orange-50 rounded-xl hover:bg-orange-100 duration-700 border hover:border-orange-600' key={index}>
-                <div className='bg-orange-200 h-max rounded-2xl mb-3'>
+            <div className='shoe_item hover:shadow-2xl p-4 rounded-xl duration-700 border hover:bg-orange-100 hover:border-orange-600' key={index}>
+                <div className='img_content bg-orange-200 h-max rounded-2xl mb-3'>
                     <img src={item.image} alt="" />
                 </div>
                 <div className='mb-2 min-h-20 text-center'>

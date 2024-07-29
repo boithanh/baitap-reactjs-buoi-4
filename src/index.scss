@@ -6,4 +6,20 @@
     background-image: url(./assets/blue-violet.png);
     background-position: top;
     background-size: contain;
+
+    .shoe_item {
+        background-color: rgba(255, 247, 237, 0.8);
+        transition: all 0.5s;
+
+        h3 {
+            font-family: "Pacifico", cursive;
+        }
+
+        &:hover {
+            .img_content {
+                border: 3px dotted black;
+                background-color: lightblue;
+            }
+        }
+    }
 }
