@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    background-image: url(./assets/blue-violet.png);
+    background-position: top;
+    background-size: contain;
+}
